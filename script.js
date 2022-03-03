@@ -1,16 +1,16 @@
 const botao = document.querySelector('input');
 const lista_video = document.getElementById('lista');
 var videos = [
-"media/1_1.MP4",
-"media/2_1.MP4",
-"media/3_1.MP4",
-"media/4_1.MP4",
-"media/5_1.MP4",
-"media/6_1.MP4",
-"media/7_1.MP4",
-"media/8_1.MP4",
-"media/9_1.MP4",
-"media/10_1.MP4"]
+"media/1_1.mp4",
+"media/2_1.mp4",
+"media/3_1.mp4",
+"media/4_1.mp4",
+"media/5_1.mp4",
+"media/6_1.mp4",
+"media/7_1.mp4",
+"media/8_1.mp4",
+"media/9_1.mp4",
+"media/10_1.mp4"]
 
 function escolher_video() {
     var n = videos.length;
